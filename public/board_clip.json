@@ -1,0 +1,161 @@
+{
+    "name": "image_banner_05_목록배너_누끼불가형 (M)",
+    "width": 656,
+    "height": 280,
+    "items": [
+        {
+            "layerName": "background{clr:#213a2d}",
+            "layerType": "background",
+            "name": "background",
+            "contentType": "clr",
+            "contentValue": "#213a2d",
+            "rect": {
+                "top": 0,
+                "left": 0,
+                "bottom": 280,
+                "right": 656,
+                "width": 656,
+                "height": 280
+            },
+            "source": {
+                "bgColor": "#213a2d"
+            },
+            "ables": {
+                "visible": true,
+                "clickable": true,
+                "sortable": true
+            }
+        },
+        {
+            "layerName": "clip",
+            "layerType": "clip",
+            "name": "clip",
+            "source": {
+                "clipPath": "circle(110px at 503px 140px)"
+            },
+            "children": [
+                {
+                    "layerName": "product1{img}",
+                    "layerType": "image",
+                    "name": "product1",
+                    "contentType": "img",
+                    "rect": {
+                        "top": 30,
+                        "left": 393,
+                        "bottom": 250,
+                        "right": 613,
+                        "width": 220,
+                        "height": 220
+                    },
+                    "source": {
+                        "fileInfo": {
+                            "bucket": "public.vcatdev.com",
+                            "path": "resource/template/u2i/769/13497/product1_c29aae4e227cc51cb7c5b6265e4118d0.png"
+                        }
+                    },
+                    "ables": {
+                        "visible": true,
+                        "clickable": true,
+                        "draggable": true,
+                        "resizable": true,
+                        "rotatable": true,
+                        "flippable": true,
+                        "sortable": true
+                    },
+                    "keepRatio": true,
+                    "rotate": 0,
+                    "scale": [
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "ables": {
+                "visible": true
+            }
+        },
+        {
+            "layerName": "fixed2{t}",
+            "layerType": "text",
+            "name": "fixed2",
+            "contentType": "t",
+            "contentValue": "{fixed2}",
+            "rect": {
+                "top": 157,
+                "left": 39,
+                "bottom": 230,
+                "right": 374,
+                "width": 335,
+                "height": 73
+            },
+            "source": {
+                "text": "건강에 좋은\n유기농 버터 모음전",
+                "orientation": "horizontal",
+                "textAlign": "left",
+                "lineHeight": 1.4,
+                "fontFamily": "vcat-NotoSansKR-Regular",
+                "fontSize": 26,
+                "letterSpacing": "-0.05em",
+                "color": "#ffffff",
+                "strokeColor": "#ffffff"
+            },
+            "ables": {
+                "visible": true,
+                "clickable": true,
+                "draggable": false,
+                "resizable": false,
+                "rotatable": false,
+                "editable": true,
+                "fontAdjustable": false,
+                "sortable": false
+            },
+            "rotate": 0,
+            "scale": [
+                1,
+                1
+            ]
+        },
+        {
+            "layerName": "fixed1{t}",
+            "layerType": "text",
+            "name": "fixed1",
+            "contentType": "t",
+            "contentValue": "{fixed1}",
+            "rect": {
+                "top": 47,
+                "left": 39,
+                "bottom": 141,
+                "right": 375,
+                "width": 336,
+                "height": 94
+            },
+            "source": {
+                "text": "연휴맞이 시크릿특가전 인기제품 득템 찬스!",
+                "orientation": "horizontal",
+                "textAlign": "left",
+                "lineHeight": 1.3,
+                "fontFamily": "vcat-NotoSansKR-Regular",
+                "fontSize": 36,
+                "letterSpacing": "-0.05em",
+                "color": "#ffffff",
+                "strokeColor": "#ffffff"
+            },
+            "ables": {
+                "visible": true,
+                "clickable": true,
+                "draggable": false,
+                "resizable": false,
+                "rotatable": false,
+                "editable": true,
+                "fontAdjustable": false,
+                "sortable": false
+            },
+            "rotate": 0,
+            "scale": [
+                1,
+                1
+            ]
+        }
+    ],
+    "formatVersion": "2023-03-14"
+}

@@ -1,0 +1,173 @@
+{
+    "name": "1080x1080",
+    "width": 1080,
+    "height": 1080,
+    "items": [
+        {
+            "layerName": "background{clr:#92a3e5}",
+            "layerType": "background",
+            "name": "background",
+            "contentType": "clr",
+            "contentValue": "#92a3e5",
+            "rect": {
+                "top": 0,
+                "left": 0,
+                "bottom": 1080,
+                "right": 1080,
+                "width": 1080,
+                "height": 1080
+            },
+            "source": {
+                "bgColor": "#92a3e5"
+            },
+            "ables": {
+                "visible": true,
+                "clickable": true,
+                "sortable": true
+            }
+        },
+        {
+            "layerName": "product1{img}",
+            "layerType": "image",
+            "name": "product1",
+            "contentType": "img",
+            "rect": {
+                "top": 420,
+                "left": 420,
+                "bottom": 1080,
+                "right": 1080,
+                "width": 660,
+                "height": 660
+            },
+            "source": {
+                "fileInfo": {
+                    "bucket": "public.vcatdev.com",
+                    "path": "resource/template/u2i/824/13957/product1_7747116e969e1d8512dab1b58d9108cb.png"
+                }
+            },
+            "ables": {
+                "visible": true,
+                "clickable": true,
+                "draggable": true,
+                "resizable": true,
+                "rotatable": true,
+                "flippable": true,
+                "sortable": true
+            },
+            "keepRatio": true
+        },
+        {
+            "layerName": "fixed2{t}",
+            "layerType": "text",
+            "name": "fixed2",
+            "contentType": "t",
+            "contentValue": "{fixed2}",
+            "rect": {
+                "top": 472,
+                "left": 76,
+                "bottom": 541,
+                "right": 817,
+                "width": 741,
+                "height": 69
+            },
+            "source": {
+                "text": "서브 텍스트를 입력하세요",
+                "orientation": "horizontal",
+                "textAlign": "left",
+                "lineHeight": 1.2,
+                "fontFamily": "Pretendard-Regular",
+                "fontSize": 55,
+                "letterSpacing": "-0.039em",
+                "color": "#ffffff",
+                "strokeColor": "#ffffff"
+            },
+            "ables": {
+                "visible": true,
+                "clickable": true,
+                "draggable": true,
+                "resizable": true,
+                "rotatable": true,
+                "editable": true,
+                "fontAdjustable": true,
+                "sortable": true
+            },
+            "rotate": 0,
+            "scale": [
+                1,
+                1
+            ]
+        },
+        {
+            "layerName": "fixed1{t}",
+            "layerType": "text",
+            "name": "fixed1",
+            "contentType": "t",
+            "contentValue": "{fixed1}",
+            "rect": {
+                "top": 215,
+                "left": 76,
+                "bottom": 460,
+                "right": 817,
+                "width": 741,
+                "height": 245
+            },
+            "source": {
+                "text": "메인 텍스트를\n입력해 보세요",
+                "orientation": "horizontal",
+                "textAlign": "left",
+                "lineHeight": 1.2,
+                "fontFamily": "Pretendard-Bold",
+                "fontSize": 102,
+                "letterSpacing": "-0.04em",
+                "color": "#ffffff",
+                "strokeColor": "#ffffff"
+            },
+            "ables": {
+                "visible": true,
+                "clickable": true,
+                "draggable": true,
+                "resizable": true,
+                "rotatable": true,
+                "editable": true,
+                "fontAdjustable": true,
+                "sortable": true
+            },
+            "rotate": 0,
+            "scale": [
+                1,
+                1
+            ]
+        },
+        {
+            "layerName": "logo{logo}",
+            "layerType": "logo",
+            "name": "logo",
+            "contentType": "logo",
+            "rect": {
+                "top": 84,
+                "left": 76,
+                "bottom": 174,
+                "right": 256,
+                "width": 180,
+                "height": 90
+            },
+            "source": {
+                "fileInfo": {
+                    "bucket": "public.vcatdev.com",
+                    "path": "resource/template/u2i/824/13957/logo_47aa834260aaf41da0b40c90058678e6.png"
+                }
+            },
+            "ables": {
+                "visible": true,
+                "clickable": true,
+                "draggable": true,
+                "resizable": true,
+                "rotatable": true,
+                "flippable": true,
+                "sortable": true
+            },
+            "keepRatio": true
+        }
+    ],
+    "formatVersion": "2023-03-14"
+}
