@@ -17,7 +17,6 @@ function App() {
     const keyManager = new KeyManager();
     let cubes: any = board.items;
 
-
     useEffect(() => {
         if (moveableRef.current) {
             keyManager.keydown(["left"], (e) => {
@@ -173,6 +172,9 @@ function App() {
             />
             <SelectControl viewerRef={viewerRef} selectoRef={selectoRef} moveableRef={moveableRef} targets={targets} setTargets={setTargets} />
             <InfiniteViewer zoomBy={0.5} className="elements infinite-viewer" ref={viewerRef} onScroll={() => {
+                if (moveableRef.current) {
+                    moveableRef.current.updateRect();
+                }
                 selectoRef.current!.checkScroll();
             }}
             >
